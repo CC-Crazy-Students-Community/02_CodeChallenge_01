@@ -10,7 +10,7 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 */
 
 let zahlEins = parseInt(prompt( "Geben Sie eine 1. Zahl ein: " ));
-let zahlZwei = parseInt(prompt( "Geben Sie eine 2. Zahl ein: " ));
+let zahlZwei = prompt( "Geben Sie eine 2. Zahl ein: " );
 
-let zahlSumme = zahlEins + zahlZwei;
+let zahlSumme = zahlEins + parseInt(zahlZwei);
 console.log( "Die Summe der Zahlen ist: " + zahlSumme );
