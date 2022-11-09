@@ -55,8 +55,17 @@ console.log( "Die Summe der Zahlen ist: " + zahlSumme3 );
 console.log( "Die Summe der Zahlen ist: " + ( Number( prompt( "Geben Sie eine 1. Zahl ein: " ) ) + Number( prompt( "Geben Sie eine 2. Zahl ein: " ) ) ) );
 
 
+/**************************************/
+/*********   Möglichkeit 4   **********/
+/**************************************/
+
+console.log( "Die Summe der Zahlen ist: " + ( +prompt( "Geben Sie eine 1. Zahl ein: " ) + +prompt( "Geben Sie eine 2. Zahl ein: " ) ) );
+
+
 /*
     der Unterschied zwischen parse und Number ist, dass pasreInt alles in Integral Zahlen verwandelt, also keine Kommazahl,
     und parseFloat eben in Kommazahlen. Wenn man aber Number nimnmt, kalkuliert er mit allen möglichen numerischen Werten,
-    also Ganzzahlen und Kommazahlen
+    also Ganzzahlen und Kommazahlen.
+
+    Das Plus vor Prompt generiert eine automatische Typenwahl, was aber sehr unsicher und nicht zu verwenden empfohlen wird.
 */
