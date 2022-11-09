@@ -1,6 +1,6 @@
-# 02_CodeChallenge_01
+# CodeChallenge 01
 
-## Die Code Challange 1 mit Beispielen
+## Die Code Challange mit Beispielen
 
 * Geben Sie über eine Prompt-Anforderung eine Zahl ein.
 * Geben Sie über eine Prompt-Anforderung eine zweite Zahl ein.
