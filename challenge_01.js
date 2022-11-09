@@ -9,12 +9,50 @@
     "Die Summe der Zahlen ist: summe"
 */
 
-let zahlEins = parseInt(prompt( "Geben Sie eine 1. Zahl ein: " ));      // parseInt wandelt den String Wert aus prompt in eine Integer Zahl um
-let zahlZwei = prompt( "Geben Sie eine 2. Zahl ein: " );
+/**************************************/
+/*********   Möglichkeit 1   **********/
+/**************************************/
+let zahlEins1, zahlZwei1, zahlSumme1;
 
-let zahlSumme = zahlEins + Number(zahlZwei);                            // Number wandelt auch den String Wert aus prompt in eine Integer Zahl um
+zahlEins1 = parseInt( prompt( "Geben Sie eine 1. Zahl ein: " ) );            // parseInt wandelt den String Wert aus prompt in eine Integer Zahl um
+zahlZwei1 = prompt( "Geben Sie eine 2. Zahl ein: " );                        // prompt ohne allem ist ein String
 
-console.log( "Die Summe der Zahlen ist: " + zahlSumme );
+zahlSumme1 = zahlEins1 + parseInt( zahlZwei1 );                              // parseInt wandelt auch den 2. String Wert aus prompt in eine Integer Zahl um
+
+console.log( "Die Summe der Zahlen ist: " + zahlSumme1 );
+
+
+/**************************************/
+/*********   Möglichkeit 2   **********/
+/**************************************/
+
+let zahlEins2, zahlZwei2, zahlSumme;
+
+zahlEins2 = Number( prompt( "Geben Sie eine 1. Zahl ein: " ) );              // Number wandelt den String Wert aus prompt in eine Integer Zahl um
+zahlZwei2 = prompt( "Geben Sie eine 2. Zahl ein: " );                        // prompt ohne allem ist ein String
+
+zahlSumme2 = zahlEins2 + Number( zahlZwei2 );                                // Number wandelt auch den 2. String Wert aus prompt in eine Integer Zahl um
+
+console.log( "Die Summe der Zahlen ist: " + zahlSumme2 );
+
+
+/**************************************/
+/*********   Möglichkeit 3   **********/
+/**************************************/
+
+let zahlEins3 = Number( prompt( "Geben Sie eine 1. Zahl ein: " ) );
+let zahlZwei3 = Number( prompt( "Geben Sie eine 2. Zahl ein: " ) );
+
+let zahlSumme3 = zahlEins3 + zahlZwei3;
+
+console.log( "Die Summe der Zahlen ist: " + zahlSumme3 );
+
+
+/**************************************/
+/*********   Möglichkeit 4   **********/
+/**************************************/
+
+console.log( "Die Summe der Zahlen ist: " + ( Number( prompt( "Geben Sie eine 1. Zahl ein: " ) ) + Number( prompt( "Geben Sie eine 2. Zahl ein: " ) ) ) );
 
 
 /*
