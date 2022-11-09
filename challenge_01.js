@@ -56,7 +56,7 @@ console.log( "Die Summe der Zahlen ist: " + ( Number( prompt( "Geben Sie eine 1.
 
 
 /**************************************/
-/*********   Möglichkeit 4   **********/
+/*********   Möglichkeit 5   **********/
 /**************************************/
 
 console.log( "Die Summe der Zahlen ist: " + ( +prompt( "Geben Sie eine 1. Zahl ein: " ) + +prompt( "Geben Sie eine 2. Zahl ein: " ) ) );
