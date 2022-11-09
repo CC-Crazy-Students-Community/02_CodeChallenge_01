@@ -26,7 +26,7 @@ console.log( "Die Summe der Zahlen ist: " + zahlSumme1 );
 /*********   Möglichkeit 2   **********/
 /**************************************/
 
-let zahlEins2, zahlZwei2, zahlSumme;
+let zahlEins2, zahlZwei2, zahlSumme2;
 
 zahlEins2 = Number( prompt( "Geben Sie eine 1. Zahl ein: " ) );              // Number wandelt den String Wert aus prompt in eine Integer Zahl um
 zahlZwei2 = prompt( "Geben Sie eine 2. Zahl ein: " );                        // prompt ohne allem ist ein String
