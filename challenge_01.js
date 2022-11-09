@@ -13,4 +13,5 @@ let zahlEins = parseInt(prompt( "Geben Sie eine 1. Zahl ein: " ));      // parse
 let zahlZwei = prompt( "Geben Sie eine 2. Zahl ein: " );
 
 let zahlSumme = zahlEins + Number(zahlZwei);                            // Number wandelt auch den String Wert aus prompt in eine Integer Zahl um
+
 console.log( "Die Summe der Zahlen ist: " + zahlSumme );
