@@ -1,5 +1,5 @@
 
-/*********   CODE CHALLENGE 01 **********/
+/*********   CODE CHALLENGE 01   **********/
  
 /*
 Geben Sie über eine Prompt-Anforderung eine Zahl ein.
@@ -9,8 +9,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-let zahlEins = parseInt(prompt( "Geben Sie eine 1. Zahl ein: " ));
+let zahlEins = parseInt(prompt( "Geben Sie eine 1. Zahl ein: " ));      // parseInt wandelt den String Wert aus prompt in eine Integer Zahl um
 let zahlZwei = prompt( "Geben Sie eine 2. Zahl ein: " );
 
-let zahlSumme = zahlEins + parseInt(zahlZwei);
+let zahlSumme = zahlEins + Number(zahlZwei);                            // Number wandelt auch den String Wert aus prompt in eine Integer Zahl um
 console.log( "Die Summe der Zahlen ist: " + zahlSumme );
