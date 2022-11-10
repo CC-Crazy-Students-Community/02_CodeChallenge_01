@@ -1,6 +1,6 @@
 # CodeChallenge 01
 
-## Die Code Challange mit Beispielen
+## Die Variablen Challange mit Beispielen
 
 * Geben Sie über eine Prompt-Anforderung eine Zahl ein.
 * Geben Sie über eine Prompt-Anforderung eine zweite Zahl ein.
