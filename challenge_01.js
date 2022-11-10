@@ -1,6 +1,7 @@
+/******************************************************/
+/*********   CODE CHALLENGE 01 - Variablen   **********/
+/******************************************************/
 
-/*********   CODE CHALLENGE 01   **********/
- 
 /*
     Geben Sie über eine Prompt-Anforderung eine Zahl ein.
     Geben Sie über eine Prompt-Anforderung eine zweite Zahl ein.
